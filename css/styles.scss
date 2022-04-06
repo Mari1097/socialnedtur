@@ -31,3 +31,69 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+//TEST
+body{
+	background-image: linear-gradient(to-lower-case,rgb(0, 0, 0), rgb(12, 1, 1, 0.679), rgb(93, 42, 42, 0.603), rgb(3, 0, 0));
+	background-size: 100% 100%;
+	font-family: Punkboy, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+@media (min-width: 400px){
+	.container{
+		width: 85%;
+		padding: 0;
+	}
+}
+
+@media (min-width: 550px){
+	.container{
+		width: 80%;
+	}
+}
+
+@media (max-width: 400px){
+	.container{
+		width: 80%;
+	}
+
+	#navigationWrap{
+		width: 100%;
+	}
+}
+
+
+
+
+.navbar-brand{
+
+}
+
+.navbar-nav{
+	color: white;
+	font-family: Punkboy, sans-serif;
+	font-size: 25px;
+}
+
+.nav1, .nav2, .nav3, .nav4{
+	text-decoration: none;
+	color: white;
+}
+
+nav1:hover{
+	transition: 0.3s ease-in-out;
+	color: red;
+}
+
+.navbar-toggler{
+	color: white;
+}
