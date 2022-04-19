@@ -121,6 +121,19 @@ label{
 	font-size: 70px;
 }
 
+.btn{
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: darkred;
+	transition: 0.3s ease-in-out;
+	border: solid black 3px;
+}
+
+.shirts{
+	font-size: 30px;
+}
+
 /* width */
 ::-webkit-scrollbar {
 	width: 10px;
